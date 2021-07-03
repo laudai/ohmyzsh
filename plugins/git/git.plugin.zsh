@@ -273,6 +273,7 @@ alias gstu='gsta --include-untracked'
 alias gstall='git stash --all'
 alias gsu='git submodule update'
 alias gsw='git switch'
+alias gswm='git switch $(git_main_branch)'
 alias gswc='git switch -c'
 
 alias gts='git tag -s'

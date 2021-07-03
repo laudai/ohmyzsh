@@ -166,6 +166,7 @@ plugins=(... git)
 | gstall               | git stash --all                                                                                                                  |
 | gsu                  | git submodule update                                                                                                             |
 | gsw                  | git switch                                                                                                                       |
+| gswm                 | git switch $(git_main_branch)                                                                                                    |
 | gswc                 | git switch -c                                                                                                                    |
 | gts                  | git tag -s                                                                                                                       |
 | gtv                  | git tag \| sort -V                                                                                                               |
